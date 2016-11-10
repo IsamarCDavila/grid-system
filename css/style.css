@@ -1,17 +1,28 @@
+body{
+	font-family: sans-serif;
+}
 .main{
 	background: #e6e6e6;
 	margin-left:50px;
 	width: 1000px;
+	display: inline-block;
 }
-/*outline:1px solid rgba(250,0,0)*/
+/*
+*{
+	outline:1px solid green;
+}
+*/
+
+
 p{
 	margin-left: 30px;
 }
 .main img{
-	width: 150px;
+	width: 200px;
 	margin-left: 30px;
 	text-align: center;
 	border:3px solid white;
+	display: inline-block;
 }
 header, footer{                /*.main, footer,*/
 	background: #4C4C4A;
@@ -22,6 +33,7 @@ header, footer{                /*.main, footer,*/
 	margin-left: 50px; 
 	text-align: center;
 }
+
 header nav{
 	color:white;
 	padding: 50px;
@@ -30,11 +42,21 @@ header nav{
 }
 header nav ul{
 	list-style: none;
+	color:white;
 }
 header nav ul li{
 	display:inline;
 	margin-right: 15px;
 	font-size: 10px;
+	color=white;
+}
+.Menu a{
+	color:white;
+	text-decoration:none;
+}
+.PiePagina a{
+	color:#A9A9A9;
+	text-decoration:none;
 }
 footer nav ul{
 	list-style: none;
@@ -56,9 +78,15 @@ section  ul li{
 .row li img{
 	width: 200px;
 }
-.row hr{
-	margin: 20px auto;
-	width: 80px;
+#copyright {
+	font-size:0.7em; 
+	text-align:center; 
+	color:white;
+	margin: 10px;
+}
+.podcasticon{
+	width:12px;
+	height: 12px;
 }
 .ListImages{
 	list-style: none;
@@ -66,12 +94,12 @@ section  ul li{
 	padding: 0;
 }
 .ListImages li {
-
+	/*padding: 1px;*/
 	display:inline-block;
 	text-align: center;
 	vertical-align: top;
 	width: 109px;
-	margin: 0px 10px 10px 0px; 
+	margin: 0px 15px 15px 0px; 
 
 }
 .ListImages li img{
@@ -87,6 +115,10 @@ section  ul li{
 	margin:0;
 	padding: 0;
 }
+.grandes img{
+	width: 12px;
+	height: 12px;
+}
 .icons ul img {
 	margin-right: 10px;
 	width: auto;
@@ -94,4 +126,7 @@ section  ul li{
 .icons ul a{
 	text-decoration: none;
 	color:blue;
+}
+hr{
+	width: 150px;
 }
